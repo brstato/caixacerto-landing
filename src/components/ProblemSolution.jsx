@@ -11,7 +11,7 @@ export default function ProblemSolution() {
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section id="solutions" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         {/* Problem Section */}
         <motion.div

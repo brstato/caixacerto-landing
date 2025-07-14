@@ -25,28 +25,21 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-card-foreground mb-4">Produto</h4>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#funcionalidades" className="hover:text-primary transition-colors">Funcionalidades</a></li>
-              <li><a href="#precos" className="hover:text-primary transition-colors">Preços</a></li>
-              <li><a href="#download" className="hover:text-primary transition-colors">Download</a></li>
-              <li><a href="#atualizacoes" className="hover:text-primary transition-colors">Atualizações</a></li>
-            </ul>
-          </div>
-
-          {/* Support */}
-          <div>
-            <h4 className="font-bold text-card-foreground mb-4">Suporte</h4>
-            <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#faq" className="hover:text-primary transition-colors">FAQ</a></li>
-              <li><a href="#contato" className="hover:text-primary transition-colors">Contato</a></li>
-              <li><a href="#documentacao" className="hover:text-primary transition-colors">Documentação</a></li>
-              <li><a href="#tutoriais" className="hover:text-primary transition-colors">Tutoriais</a></li>
+              <li><a href="#hero" className="hover:text-primary transition-colors">Inicio</a></li>
+              <li><a href="#solutions" className="hover:text-primary transition-colors">Soluções</a></li>
+              <li><a href="#features" className="hover:text-primary transition-colors">Funcionalidades</a></li>
+              <li><a href="#price" className="hover:text-primary transition-colors">Preços</a></li>
+              <li><a href="#testmonials" className="hover:text-primary transition-colors">Depoimentos</a></li>
+              <li><a href="#cta" className="hover:text-primary transition-colors">Download</a></li>
+              <li><a href="#upcoming" className="hover:text-primary transition-colors">Atualizações</a></li>
+              <li><a href="#faq" className="hover:text-primary transition-colors">Perguntas frequentes</a></li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            Desenvolvido com ❤️ para barbeiros e empreendedores do setor de beleza
+            Desenvolvido com ❤️ para empreendedores de sucesso.
           </p>
         </div>
       </div>

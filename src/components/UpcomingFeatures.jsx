@@ -25,7 +25,7 @@ export default function UpcomingFeatures() {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-900 via-zinc-900 to-black">
+    <section id="upcoming" className="py-20 bg-gradient-to-br from-gray-900 via-zinc-900 to-black">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

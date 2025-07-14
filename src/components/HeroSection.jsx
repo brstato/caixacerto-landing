@@ -2,19 +2,25 @@ import { Button } from "./ui/button";
 import { motion } from "framer-motion";
 import heroImage from "/screenshot.png";
 import logoImage from "/caixacerto_logo.png";
+import DownloadButton from "./DownloadButton"
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0"
-        style={{
-          backgroundSize: 'contain',
-          backgroundImage: `url(${heroImage})`,
+        style={{          
           backgroundSize: '60% auto',
           backgroundPosition: 'left center',
           backgroundRepeat: "no-repeat",
+          backgroundImage: `      
+            linear-gradient(
+            to left,
+            rgba(31, 31, 31, 0.69) 0%,
+            rgba(66, 66, 66, 0.7) 30%,
+            rgba(99, 99, 99, 0.4) 70%,
+            transparent 100%), url(${heroImage})`,          
         }}
       />
       <div className="absolute inset-0 bg-black opacity-50"/>
@@ -59,12 +65,12 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="space-y-4"
         >
-          <Button 
+          <DownloadButton 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
           >
             Baixe Agora e Experimente Grátis!
-          </Button>
+          </DownloadButton>
           
           <p className="text-sm text-gray-300">
             Compatível com Windows. Suporte Gratuito por 30 dias!

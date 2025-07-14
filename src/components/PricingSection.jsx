@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
 import { Button } from "./ui/button";
 import { Check, Star, Zap } from "lucide-react";
+import DownloadButton from "./DownloadButton";
 
 export default function PricingSection() {
   return (
-    <section className="py-20 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+    <section id="price" className="py-20 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -57,12 +58,12 @@ export default function PricingSection() {
                 </div>
                 <p className="text-gray-300 mb-6">Para barbearias e salões em crescimento</p>
                 
-                <Button 
+                <DownloadButton 
                   size="lg" 
                   className="w-full bg-primary hover:bg-primary/90 text-white mb-8 shadow-lg shadow-primary/30"
                 >
                   Experimente Grátis
-                </Button>
+                </DownloadButton>
                 
                 <ul className="space-y-3 text-left">
                   <li className="flex items-start">
@@ -105,12 +106,12 @@ export default function PricingSection() {
               <h3 className="text-2xl font-bold text-white">Promoção de Lançamento!</h3>
               <p className="text-white/90">Baixe hoje e ganhe 30 dias grátis + suporte premium.</p>
             </div>
-            <Button 
+            <DownloadButton 
               size="lg" 
               className="bg-white text-primary hover:bg-gray-100 px-8 py-4 text-lg font-bold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
               Aproveite a Oferta
-            </Button>
+            </DownloadButton>
           </div>
         </motion.div>
       </div>
