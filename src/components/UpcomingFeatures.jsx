@@ -7,13 +7,13 @@ export default function UpcomingFeatures() {
     {
       icon: Smartphone,
       title: "Aplicativo Mobile",
-      description: "Tenha as principais funcionalidades do CaixaCerto na palma da sua mão, com um aplicativo mobile intuitivo para iOS e Android. Gerencie sua barbearia de qualquer lugar!",
+      description: "Tenha as principais funcionalidades do CaixaCerto na palma da sua mão, com um aplicativo mobile intuitivo. Gerencie sua barbearia de qualquer lugar!",
       status: "Em Breve"
     },
     {
       icon: Globe,
       title: "Landing Page do Estabelecimento",
-      description: "Crie uma landing page profissional para sua barbearia ou salão, melhore seu posicionamento na internet e não fique refém de redes sociais. Sua marca, seu domínio!",
+      description: "Tenha uma landing page profissional para sua barbearia ou salão, melhore seu posicionamento na internet e não fique refém de redes sociais.",
       status: "Em Breve"
     },
     {
@@ -40,7 +40,7 @@ export default function UpcomingFeatures() {
           </h2>
           
           <p className="text-lg md:text-xl text-gray-300 max-w-4xl mx-auto">
-            Estamos sempre inovando para oferecer as melhores ferramentas para a gestão da sua barbearia. 
+            Estamos sempre inovando para oferecer as melhores ferramentas para a gestão da seu negócio. 
             Confira o que está por vir no CaixaCerto:
           </p>
         </motion.div>

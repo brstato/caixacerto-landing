@@ -19,14 +19,10 @@ export default function PricingSection() {
           </div>
           
           <h2 className="text-3xl md:text-5xl font-bold mb-8 text-white">
-            Planos Acessíveis para
+            Nosso plano
             <br />
-            <span className="text-primary">Sua Barbearia ou Salão</span>
+            <span className="text-primary">inclui 30 dias grátis! </span>
           </h2>
-          
-          <p className="text-lg md:text-xl text-gray-200 max-w-4xl mx-auto">
-            Nosso plano inclui 30 dias grátis! 
-          </p>
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">

@@ -5,17 +5,17 @@ import { Quote } from "lucide-react";
 export default function Testimonials() {
   const testimonials = [
     {
-      text: "O CaixaCerto revolucionou a gestão da minha barbearia! O controle financeiro é impecável e a integração com o WhatsApp me ajuda a manter meus clientes sempre engajados. Recomendo a todos os barbeiros que buscam eficiência!",
-      author: "João Silva",
-      role: "Proprietário da Barbearia Navalha de Ouro"
+      text: "O CaixaCerto ajudou muito na gestão da minha barbearia! A integração com o WhatsApp é TOP!!! me ajuda a manter meus clientes sempre engajados. Recomendo a todos os barbeiros que buscam eficiência!",
+      author: "Maicon Jesus",
+      role: "Proprietário da Barbearia TROPA"
     },
     {
-      text: "Com o CaixaCerto, consegui organizar minha agenda e nunca mais perdi um cliente por esquecimento. Os lembretes automáticos são um diferencial enorme. É um software para barbearia que realmente funciona!",
-      author: "Maria Oliveira",
-      role: "Gerente do Salão Beleza Pura"
+      text: "Na verdade eu tenho um estúdio de tatuagem, mas com o CaixaCerto, consegui organizar minha agenda e nunca mais perdi um cliente por esquecimento. Os lembretes automáticos são um diferencial enorme.",
+      author: "Elza Ribeiro",
+      role: "Socia do estúdio Bruno Tattoo"
     },
     {
-      text: "A funcionalidade de controle de pacotes de serviços é fantástica! Meus clientes adoram acompanhar o que já usaram e o que ainda têm disponível. O CaixaCerto é intuitivo e me poupa muito tempo.",
+      text: "A funcionalidade de controle de pacotes de serviços é fantástica! Meus clientes adoram acompanhar o que já usaram e o que ainda têm disponível.",
       author: "Carlos Santos",
       role: "Barbeiro e Empreendedor"
     }
@@ -32,7 +32,7 @@ export default function Testimonials() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-8 text-foreground">
-            O que Nossos Clientes Dizem sobre o 
+            O que nossos clientes dizem sobre o 
             <span className="text-primary"> CaixaCerto</span>
           </h2>
         </motion.div>

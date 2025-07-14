@@ -60,7 +60,7 @@ export default function CallToAction() {
               className="flex items-center justify-center space-x-2 text-white/90"
             >
               <Clock size={20} />
-              <span className="text-sm">Suporte Gratuito por 7 dias</span>
+              <span className="text-sm">Suporte Gratuito por 30 dias</span>
             </motion.div>
             
             <motion.div

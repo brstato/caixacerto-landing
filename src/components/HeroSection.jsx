@@ -1,19 +1,23 @@
 import { Button } from "./ui/button";
 import { motion } from "framer-motion";
-import heroImage from "../assets/hero_barbershop.jpg";
-import logoImage from "../assets/logo_caixacerto.png";
+import heroImage from "/screenshot.png";
+import logoImage from "/caixacerto_logo.png";
 
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${heroImage})`
+          backgroundSize: 'contain',
+          backgroundImage: `url(${heroImage})`,
+          backgroundSize: '60% auto',
+          backgroundPosition: 'left center',
+          backgroundRepeat: "no-repeat",
         }}
       />
-      
+      <div className="absolute inset-0 bg-black opacity-50"/>
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <motion.div
@@ -46,7 +50,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto text-gray-200"
         >
-          O sistema completo impulsiona o crescimento do seu negócio.
+          O sistema completo para impulsionar o crescimento do seu negócio.
         </motion.p>
 
         <motion.div

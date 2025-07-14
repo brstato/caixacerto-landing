@@ -9,12 +9,8 @@ export default function FAQ() {
       answer: "O CaixaCerto é um aplicativo desktop desenvolvido para Windows, compatível com as versões mais recentes do sistema operacional."
     },
     {
-      question: "Preciso de internet para usar o CaixaCerto?",
-      answer: "Não, o CaixaCerto funciona offline. A conexão com a internet é necessária apenas para atualizações do software e para funcionalidades que dependem de comunicação externa, como a integração com WhatsApp."
-    },
-    {
       question: "Como funciona o suporte gratuito?",
-      answer: "Oferecemos 7 dias de suporte gratuito para novos usuários, para auxiliar na instalação, configuração inicial e tirar dúvidas sobre as funcionalidades do software. Após esse período, você pode optar por um de nossos planos de suporte."
+      answer: "Oferecemos 30 dias de suporte gratuito para novos usuários, para auxiliar na instalação, configuração inicial e tirar dúvidas sobre as funcionalidades do software. Após esse período, você pode optar pelo nosso plano de suporte."
     },
     {
       question: "O CaixaCerto é adequado para pequenos e grandes estabelecimentos?",
@@ -24,10 +20,6 @@ export default function FAQ() {
       question: "Como funciona a integração com WhatsApp?",
       answer: "A integração permite enviar mensagens automáticas para seus clientes, incluindo lembretes de agendamento, promoções e agradecimentos. É uma ferramenta poderosa para manter o relacionamento com a clientela e aumentar o engajamento."
     },
-    {
-      question: "Posso importar dados de outros sistemas?",
-      answer: "Sim, o CaixaCerto oferece ferramentas de importação que facilitam a migração de dados de planilhas e outros sistemas de gestão, garantindo uma transição suave para nossa plataforma."
-    }
   ];
 
   return (

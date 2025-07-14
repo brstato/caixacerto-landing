@@ -1,4 +1,4 @@
-import logoImage from "../assets/logo_caixacerto.png";
+import logoImage from "/caixacerto_logo.png";
 
 export default function Footer() {
   return (
